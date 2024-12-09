@@ -9,8 +9,8 @@ export default function TermsOfService() {
   
             <section className="space-y-4">
               <p className="text-gray-300">
-                These terms and conditions applies to the YourDailyMinute app (hereby referred to as "Application") 
-                for mobile devices that was created by Utkarsh (hereby referred to as "Service Provider") as a Commercial service.
+                These terms and conditions applies to the YourDailyMinute app (hereby referred to as &quot;Application&quot;) 
+                for mobile devices that was created by Utkarsh (hereby referred to as &quot;Service Provider&quot;) as a Commercial service.
               </p>
             </section>
   

@@ -209,7 +209,7 @@ const steps = [
   },
   {
     title: "Track Progress",
-    description: "Review your past recordings to see how you've grown. Your journey of self-improvement is documented one minute at a time.",
+    description: "Review your past recordings to see how you&apos;ve grown. Your journey of self-improvement is documented one minute at a time.",
   },
 ];
 

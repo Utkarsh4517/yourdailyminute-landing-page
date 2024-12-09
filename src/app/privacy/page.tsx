@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
             <section className="space-y-4">
               <h2 className="text-2xl font-bold">Privacy Policy</h2>
               <p className="text-gray-300">
-                This privacy policy applies to the YourDailyMinute app (hereby referred to as "Application") for mobile devices that was created by Utkarsh (hereby referred to as "Service Provider") as a Commercial service. This service is intended for use "AS IS".
+                This privacy policy applies to the YourDailyMinute app (hereby referred to as &quot;Application&quot;) for mobile devices that was created by Utkarsh (hereby referred to as &quot;Service Provider&quot;) as a Commercial service. This service is intended for use &quot;AS IS&quot;.
               </p>
             </section>
   
@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
                 The Application collects information when you download and use it. This information may include information such as:
               </p>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>Your device's Internet Protocol address (e.g. IP address)</li>
+                <li>Your device&apos;s Internet Protocol address (e.g. IP address)</li>
                 <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
                 <li>The time spent on the Application</li>
                 <li>The operating system you use on your mobile device</li>
@@ -60,7 +60,7 @@ export default function PrivacyPolicy() {
             <section className="space-y-4">
               <h2 className="text-2xl font-bold">Data Retention Policy</h2>
               <p className="text-gray-300">
-                The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at uttkarsh.dav@gmail.com and they will respond in a reasonable time.
+                The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you&apos;d like them to delete User Provided Data that you have provided via the Application, please contact them at uttkarsh.dav@gmail.com and they will respond in a reasonable time.
               </p>
             </section>
   
@@ -70,7 +70,7 @@ export default function PrivacyPolicy() {
                 The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
               </p>
               <p className="text-gray-300">
-                The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider (uttkarsh.dav@gmail.com) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
+                The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourage parents and legal guardians to monitor their children&apos;s Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider (uttkarsh.dav@gmail.com) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
               </p>
             </section>
   
