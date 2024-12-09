@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ios from "@/app/assets/ios-1.png";
 import android from "@/app/assets/android-1.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,12 +23,12 @@ export default function Home() {
               >
                 Download Now
               </a>
-              <a
-                href="#learn-more"
+              <Link
+                href="/privacy"
                 className="border border-gray-light px-8 py-3 rounded-full hover:bg-gray-light transition"
               >
-                Learn More
-              </a>
+                Privacy Policy
+              </Link>
             </div>
           </div>
           <div className="relative animate-float">
@@ -145,6 +146,36 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <footer className="bg-gray-dark py-12">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="text-gray-300">
+              © {new Date().getFullYear()} Your Daily Minute. All rights reserved.
+            </div>
+            <div className="flex gap-6">
+              <Link 
+                href="/privacy" 
+                className="text-gray-300 hover:text-primary transition"
+              >
+                Privacy Policy
+              </Link>
+              <a 
+                href="#" 
+                className="text-gray-300 hover:text-primary transition"
+              >
+                Terms of Service
+              </a>
+              <a 
+                href="mailto:contact@yourdailyminute.app" 
+                className="text-gray-300 hover:text-primary transition"
+              >
+                Contact
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
