@@ -161,13 +161,13 @@ export default function Home() {
                 Privacy Policy
               </Link>
               <a 
-                href="#" 
+                href="/terms" 
                 className="text-gray-300 hover:text-primary transition"
               >
                 Terms of Service
               </a>
               <a 
-                href="mailto:contact@yourdailyminute.app" 
+                href="mailto:uttkarsh.dav@gmail.com" 
                 className="text-gray-300 hover:text-primary transition"
               >
                 Contact
