@@ -51,7 +51,7 @@ export default function TermsOfService() {
               <p className="text-gray-300">
                 The Service Provider cannot be held responsible if the Application does not function at full capacity due 
                 to lack of access to Wi-Fi or if you have exhausted your data allowance. If you are using the application 
-                outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply.
+                outside of a Wi-Fi area, please be aware that your mobile network provider&apos;s agreement terms still apply.
               </p>
             </section>
   
