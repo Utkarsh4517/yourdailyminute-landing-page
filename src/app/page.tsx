@@ -18,7 +18,7 @@ export default function Home() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#download"
+                href="https://apps.apple.com/us/app/your-daily-minute/id6738890503?uo=2&partnerId=11&at=1001l5Uo"
                 className="bg-primary text-white px-8 py-3 rounded-full hover:bg-opacity-90 transition"
               >
                 Download Now
