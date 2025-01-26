@@ -30,6 +30,18 @@ export default function Home() {
                 Privacy Policy
               </Link>
             </div>
+            <a 
+              href="https://www.producthunt.com/posts/your-daily-minute?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-your&#0045;daily&#0045;minute" 
+              target="_blank"
+              className="mt-4 block"
+            >
+              <img 
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=819890&theme=light&t=1737882908900" 
+                alt="Your Daily Minute - AI-powered self journaling app | Product Hunt"
+                width="250" 
+                height="54" 
+              />
+            </a>
           </div>
           <div className="relative animate-float">
             <div className="absolute -inset-4 bg-primary/20 blur-3xl rounded-full"></div>
