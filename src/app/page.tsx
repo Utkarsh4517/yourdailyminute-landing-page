@@ -138,6 +138,44 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="container mx-auto px-4 py-20 bg-gray-dark">
+        <div className="max-w-4xl mx-auto text-center space-y-8">
+          <h2 className="text-3xl md:text-4xl font-bold">
+            Always Here to <span className="text-primary">Listen</span>
+          </h2>
+          <p className="text-xl text-gray-300">
+            Sometimes the weight of our thoughts feels heaviest when we have no one to share them with. 
+            Your Daily Minute is your judgment-free space, always ready to listen, 24/7.
+          </p>
+          <div className="grid md:grid-cols-2 gap-8 text-left mt-12">
+            <div className="space-y-4 p-6 bg-background rounded-2xl">
+              <div className="text-3xl">🌙</div>
+              <h3 className="text-xl font-bold">Your Midnight Companion</h3>
+              <p className="text-gray-300">
+                When thoughts keep you awake and the world is asleep, take a minute to speak your mind. 
+                Sometimes, all we need is a moment to voice our thoughts and find peace.
+              </p>
+            </div>
+            <div className="space-y-4 p-6 bg-background rounded-2xl">
+              <div className="text-3xl">💭</div>
+              <h3 className="text-xl font-bold">A Safe Space for Your Thoughts</h3>
+              <p className="text-gray-300">
+                No judgment, no expectations - just you and your thoughts. Transform your quiet moments into 
+                meaningful self-discovery with AI-powered insights that help you understand yourself better.
+              </p>
+            </div>
+          </div>
+          <div className="mt-12">
+            <a
+              href="https://apps.apple.com/us/app/your-daily-minute/id6738890503?uo=2&partnerId=11&at=1001l5Uo"
+              className="bg-primary text-white px-12 py-4 rounded-full hover:bg-opacity-90 transition inline-block"
+            >
+              Begin Your Journey
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className="container mx-auto px-4 py-20">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="text-3xl md:text-4xl font-bold">
@@ -221,7 +259,7 @@ const steps = [
   },
   {
     title: "Track Progress",
-    description: "Review your past recordings to see how you&apos;ve grown. Your journey of self-improvement is documented one minute at a time.",
+    description: "Review your past recordings to see how you have grown. Your journey of self-improvement is documented one minute at a time.",
   },
 ];
 
