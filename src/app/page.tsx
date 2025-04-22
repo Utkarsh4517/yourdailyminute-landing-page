@@ -34,7 +34,7 @@ export default function Home() {
                 Self-reflection made simple ✨
               </div>
               <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-              For those who find it difficult to express themself
+              Express yourself
               </h1>
               <p className="text-xl md:text-2xl font-medium text-primary/90 mt-4 max-w-lg">
                 An app for the people who find it difficult to express themself
@@ -111,7 +111,7 @@ export default function Home() {
       <section id="features" className="gradient-bg py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-            Features You'll <span className="text-primary">Love</span>
+            Features You&apos;ll <span className="text-primary">Love</span>
           </h2>
           <p className="text-center text-lg max-w-2xl mx-auto mb-16">
             Experience the power of daily reflection with these powerful tools designed to help you express yourself effortlessly.
@@ -208,7 +208,7 @@ export default function Home() {
                   <p className="text-sm text-gray-600">{testimonial.title}</p>
                 </div>
               </div>
-              <p className="text-gray-600 italic">"{testimonial.quote}"</p>
+              <p className="text-gray-600 italic">&quot;{testimonial.quote}&quot;</p>
             </div>
           ))}
         </div>
@@ -340,23 +340,5 @@ const testimonials = [
     name: "Michael T.",
     title: "Student",
     quote: "I've never been good at journaling, but recording quick videos is so much easier! The AI insights have helped me understand my stress patterns during exam periods.",
-  },
-];
-
-const privacyFeatures = [
-  {
-    title: "Local Processing",
-    description: "All videos are processed on your device",
-    icon: "📱",
-  },
-  {
-    title: "End-to-End Encryption",
-    description: "Your data is secured with encryption",
-    icon: "🔒",
-  },
-  {
-    title: "You Own Your Data",
-    description: "Delete your data anytime with one tap",
-    icon: "👤",
   },
 ];
