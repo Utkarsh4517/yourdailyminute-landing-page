@@ -3,16 +3,25 @@
 @tailwind utilities;
 
 :root {
-  --primary: #da7756;
-  --background: #2b2b2b;
-  --foreground: #ffffff;
-  --gray-light: #404040;
-  --gray-dark: #1a1a1a;
+  --primary: #757194;
+  --secondary: #F9E8FA;
+  --accent: #FFDEFB;
+  --background: #ffffff;
+  --foreground: #757194;
+  --card-bg: #ffffff;
+  --gray-light: #f5f5f5;
+  --gray-dark: #F9E8FA;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
+  font-family: var(--font-manrope), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-urbanist), sans-serif;
+  font-weight: 700;
 }
 
 @keyframes float {
@@ -26,10 +35,116 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes pulse {
+  0% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+  100% { opacity: 0.5; transform: scale(1); }
+}
+
+@keyframes meshMove {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(5px, -5px); }
+  66% { transform: translate(-5px, 5px); }
+  100% { transform: translate(0, 0); }
+}
+
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
 
 .animate-fade-in {
   animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-pulse {
+  animation: pulse 8s ease-in-out infinite;
+}
+
+.animate-mesh {
+  animation: meshMove 15s ease-in-out infinite;
+}
+
+.rounded-card {
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(117, 113, 148, 0.1);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(117, 113, 148, 0.2);
+}
+
+.btn-secondary {
+  background-color: white;
+  color: var(--primary);
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  border: 2px solid var(--primary);
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 30px rgba(117, 113, 148, 0.1);
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(117, 113, 148, 0.15);
+}
+
+.step-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 30px rgba(117, 113, 148, 0.1);
+  position: relative;
+}
+
+.step-number {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.backdrop-blur-xl {
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
 }
