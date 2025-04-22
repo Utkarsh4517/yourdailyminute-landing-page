@@ -39,7 +39,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl font-medium text-primary/90 mt-4 max-w-lg">
                 An app for the people who find it difficult to express themself
               </p>
-              <div className="flex gap-4 pt-4">
+              <div className="flex gap-4 pt-4 ">
                 <a
                   href="https://apps.apple.com/us/app/your-daily-minute/id6738890503?uo=2&partnerId=11&at=1001l5Uo"
                   className="group btn-primary flex items-center gap-2"
@@ -50,9 +50,19 @@ export default function Home() {
                   </svg>
                   <span>Download on iOS</span>
                 </a>
-                <a href="#how-it-works" className="backdrop-blur-sm border border-primary/20 bg-white/30 text-primary px-8 py-3 rounded-full hover:bg-white/50 transition">
-                  See how it works
+                <a 
+                  href="https://www.producthunt.com/posts/your-daily-minute?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-your&#0045;daily&#0045;minute" 
+                  target="_blank"
+                  className=" block"
+                >
+                  <img 
+                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=819890&theme=light&t=1737882908900" 
+                    alt="Your Daily Minute - AI-powered self journaling app | Product Hunt"
+                    width="250" 
+                    height="54" 
+                  />
                 </a>
+                
               </div>
               <div className="pt-6">
                 <div className="flex items-center gap-2 text-primary/70">
